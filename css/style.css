@@ -1,0 +1,454 @@
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: sans-serif;
+}
+a, a:hover:{
+	text-decoration: none;
+}
+
+/*main code gose here*/
+
+
+.header-section{
+	width: 100%;
+	padding: 20px 0px;
+	background: #fcdb00;
+}
+ .header-section .bg-light {
+    background-color: transparent !important
+}
+
+ .header-section .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+  .header-section .navbar-nav .nav-link{
+  	margin: 0px 0px 0px 35px;
+
+ }
+ .banner{
+ 	width: 100%;
+ 	padding: 60px 0px;
+ }
+
+ .banner .text-inner{
+ 	width: 100%;
+ 	padding: 20px 0px;
+ }
+
+ .banner .text-inner h1{
+ 	font-size: 36px;
+ 	line-height: 46px;
+ 	margin-bottom: 20px;
+ 	font-weight: 500;
+
+
+ }
+ .banner .text-inner h5{
+ 	font-size: 22px;
+    line-height: 30px;
+ 	margin-bottom: 20px;
+ 	font-weight: 400;
+
+ }
+ .banner .text-inner p{
+ 	font-size: 16px;
+ 	line-height: 26px;
+ 	margin-bottom: 20px;
+ 
+
+ }
+
+ .banner .text-inner .innner-img{
+ 	margin-top: 30px;
+ }
+
+/*feature section css code gose here*/
+
+.feature{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature .title{
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.feature .title h1 {
+    font-size: 42px;
+    font-weight: 500;
+}
+.feature .title p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.feature .feature-inner{
+	width: 100%;
+
+}
+.feature .feature-inner .media{
+	padding: 30px 0px 0px;
+}
+.feature .feature-inner .media .fa {
+    font-size: 50px;
+    color: #000;
+}
+.feature .feature-inner .media-body {
+    padding: 0px 10px;
+}
+.feature .feature-inner .media-body h5 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.feature .feature-inner .media-body p{
+	  font-size: 14px;
+    line-height: 24px;
+    color: #ababab;
+
+}
+
+/*footer section code gose here*/
+
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #010101;
+}
+.footer-section .title{
+	width: 100%;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.footer-section .title h1 {
+    font-size: 42px;
+    font-weight: 500;
+    color: #fcdb00;
+}
+.footer-section .title p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer-section .form-inline{
+	width: 100%;
+	padding: 0px 56px;
+}
+.footer-section .form-inline .form-group{
+	width: 80%;
+}
+.footer-section .form-inline .form-group .form-control{
+	width: 100% !important;
+	padding: 10px;
+	height: auto !important;
+}
+.footer-section .form-inline .btn-primary {
+    padding: 10px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fcdb00;
+    border: 2px solid #fcdb00;
+    color: #000;
+}
+.footer-section .form-inline .btn-primary:hover, .footer-section .form-inline .btn-primary:focus{
+	   background: transparent;
+       border: 2px solid #fcdb00;
+      color: #fcdb00;
+
+}
+
+.social-icons{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+
+.footer-section .social-icons ul {
+    display: block;
+    margin-bottom: 0px 10px;
+    font-size: 43px;
+
+}
+
+.footer-section .social-icons ul li{
+  display: inline-block;
+  list-style: none;
+
+}
+
+.footer-section .social-icons ul li i{
+      font-size: 33px;
+    padding: 10px 5px;
+    color: #010101;
+    background: #fcdb00;
+      text-transform: uppercase;
+    margin: 25px 18px;
+     padding: 8px 10px;
+    border-radius: 8px;
+
+ 
+
+}
+
+
+}
+.footer-section .social-icons ul li i:hover, .footer-section .social-icons ul li i:focus{
+      background: transparent;
+       border: 1px solid #fcdb00;
+        color: #fcdb00;
+}
+
+.bottom-footer{
+  width: 100%;
+  padding: 30px 0px 0px 0px;
+
+
+}
+.bottom-footer .one{
+  width: 100%;
+
+  
+}
+
+.bottom-footer .one p{
+     font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 3px 0px;
+
+}
+
+.bottom-footer .title{
+  width: 100%;
+ 
+
+}
+
+.bottom-footer .title a{
+     font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 3px 0px;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*css meddia querise gose here*/
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+	  .header-section .navbar-light .navbar-nav .nav-link {
+	    color: rgba(0,0,0);
+	    font-size: 20px;
+	    font-weight: 700;
+	 }
+	  .banner .text-inner h1{
+	 	 font-size: 31px;
+	 	 font-weight: 700;
+	 	
+
+	 }
+		.banner .text-inner h5{
+	        font-size: 28px;
+    
+
+      }
+     .banner .text-inner .innner-img{
+ 	     margin-bottom: 30px; 
+      }
+      .feature .title h1{
+      	    font-size: 32px;
+
+      }
+      .inner-contact .list-group .list-group-item {
+        text-align: center;
+      }
+      .footer-section .social-icons ul li i{
+         text-align: center;
+        
+         font-size: 46px;
+         line-height: 52px;
+         padding: 10px 10px;
+
+      }
+      .footer-section .form-inline .form-group {
+       width: 100%;
+      }
+      .footer-section .form-inline .btn-primary {
+        margin: 10px 52px;
+           
+      }
+      .footer-section .social-icons ul li i {
+          text-align: center;
+          font-size: 32px;
+          line-height: 22px;
+          padding: 9px 9px;
+          margin: 10px 9px;
+      }
+      .footer-section .title p {
+          font-size: 26px;
+          line-height: 33px;
+      }
+      .bottom-footer {
+          width: 100%;
+          padding: 30px 0px 0px 0px;
+          margin: 0px 0px -80px;
+      }
+      .banner .text-inner {
+          width: 100%;
+          padding: 0px 0px;
+      }
+           
+
+
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	  .header-section .navbar-light .navbar-nav .nav-link {
+	     color: rgba(0,0,0);
+	     font-size: 20px;
+	     font-weight: 700;
+	  }
+	  .banner .text-inner h1{
+	 	  font-size: 31px;
+	 	  font-weight: 700;
+	 	
+
+	   }
+	  .banner .text-inner h5{
+ 	         font-size: 28px;
+
+       }
+       .banner .text-inner .innner-img{
+ 	      margin-bottom: 30px;
+        }
+        .feature .title h1{
+        	 font-size: 32px;
+      	
+         }
+         .feature .feature-inner .media{
+				padding: 10px 0px 0px;
+			}
+
+       .footer-section .form-inline .form-group {
+       width: 100%;
+      }
+      .footer-section .form-inline .btn-primary {
+            margin: 10px 55px;
+      }
+      .footer-section .social-icons ul li i {
+          text-align: center;
+          font-size: 32px;
+          line-height: 22px;
+          padding: 9px 9px;
+          margin: 10px 9px;
+      }
+      .footer-section .title p {
+          font-size: 26px;
+          line-height: 33px;
+      }
+      .bottom-footer {
+          width: 100%;
+          padding: 30px 0px 0px 0px;
+          margin: 0px 0px -80px;
+      }
+      .banner .text-inner {
+          width: 100%;
+          padding: 0px 0px;
+      }
+
+      
+
+  
+
+  
+}
+
+ /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+      .header-section .navbar-light .navbar-nav .nav-link {
+          color: rgba(0,0,0);
+          font-size: 20px;
+          font-weight: 700;
+       }
+      .banner .text-inner h1{
+	 	font-size: 31px;
+	 	font-weight: 700;
+	 
+	   }
+	   .banner .text-inner h5{
+ 	     font-size: 28px;
+       }
+     .banner .text-inner .innner-img{
+ 	     margin-bottom: 30px;
+      }
+
+      .feature .title h1{
+
+      	
+      }
+      .feature .feature-inner .media{
+			padding: 10px 0px 0px;
+		}
+     .footer-section .form-inline .form-group {
+       width: 100%;
+      }
+     .footer-section .form-inline .btn-primary {
+          margin: 0px 177px 0px;
+          padding: 0px 29px 8px 27px;
+       }
+       .bottom-footer {
+          width: 100%;
+          padding: 30px 0px 0px 0px;
+          margin: 0px 0px -80px;
+      }
+       
+
+  
+ 
+  
+}
